@@ -15,4 +15,9 @@ public class QuadBikeTest {
   public void driveDistanceReturnsTimes(){
     assertEquals(1, bike.driveTime(10));
   }
+
+  @Test
+  public void showEngineCapacity(){
+    assertEquals(50, bike.engineCapacity());
+  }
 }
