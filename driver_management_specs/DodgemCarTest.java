@@ -9,11 +9,11 @@ public class DodgemCarTest {
 
   @Before
   public void before(){
-    car = new DodgemCar();
+    car = new DodgemCar(10);
   }
 
   @Test
   public void driveDistanceReturnsTime(){
-    assertEquals(100, car.driveDistance(10));
+    assertEquals(1, car.driveDistance(10));
   }
 }
