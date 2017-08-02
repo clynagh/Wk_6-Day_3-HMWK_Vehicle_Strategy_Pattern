@@ -16,4 +16,9 @@ public class DodgemCarTest {
   public void driveDistanceReturnsTime(){
     assertEquals(1, car.driveTime(10));
   }
+
+  @Test
+  public void showNumberOfSeats(){
+    assertEquals(2, car.numberOfSeats());
+  }
 }

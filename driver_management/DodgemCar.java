@@ -12,4 +12,8 @@ public int driveTime(int distance) {
   return distance/this.averageSpeed;
 }
 
+public int numberOfSeats(){
+  return 2;
+}
+
 }
