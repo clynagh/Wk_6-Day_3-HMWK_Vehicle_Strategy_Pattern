@@ -8,7 +8,7 @@ public class QuadBikeTest {
 
   @Before
   public void before(){
-    bike = new QuadBike(10);
+    bike = new QuadBike(10, 50);
   }
 
   @Test
