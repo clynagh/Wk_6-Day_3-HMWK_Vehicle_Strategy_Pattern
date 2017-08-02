@@ -18,4 +18,8 @@ public class QuadBike implements Driveable{
     return this.engineCapacity;
   }
 
+  public String drive(){
+    return "Vrooom, off we go!!";
+  }
+
 }

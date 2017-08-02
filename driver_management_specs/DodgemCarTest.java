@@ -22,4 +22,9 @@ public class DodgemCarTest {
   public void showNumberOfSeats(){
     assertEquals(2, car.numberOfSeats());
   }
+
+  @Test
+  public void drive(){
+    assertEquals("Forward, BUMP, backwards, BUMP!!", car.drive());
+  }
 }

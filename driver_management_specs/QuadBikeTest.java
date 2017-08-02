@@ -20,4 +20,9 @@ public class QuadBikeTest {
   public void showEngineCapacity(){
     assertEquals(50, bike.engineCapacity());
   }
+
+  @Test
+  public void drive(){
+    assertEquals("Vrooom, off we go!!", bike.drive());
+  }
 }

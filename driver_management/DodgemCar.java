@@ -18,4 +18,8 @@ public int numberOfSeats(){
   return this.seats;
 }
 
+public String drive(){
+  return "Forward, BUMP, backwards, BUMP!!";
+}
+
 }
